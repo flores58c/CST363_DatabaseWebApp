@@ -1,0 +1,14 @@
+<!doctype html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+  <title>Error</title>
+</head>
+<body>
+<h1 th:inline = "text">Please make sure the website url is correct </h1>
+<a href = "http://localhost:8080">Go to main page</a>
+  <p th:inline="text"> Error 404 has occurred.
+  <br/>
+  [[${msg}]]
+  </p>
+
+</body></html>

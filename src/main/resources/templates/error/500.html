@@ -1,0 +1,15 @@
+<!doctype html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+  <title>Error</title>
+</head>
+<body>
+<h1 th:inline = "text">Please retype and make sure prescription inputs are correct </h1>
+<a href = "http://localhost:8080">Go to main page</a>
+  <p th:inline="text"> Error 500 has occurred.
+
+    <br/>
+  [[${msg}]]
+  </p>
+
+</body></html>
